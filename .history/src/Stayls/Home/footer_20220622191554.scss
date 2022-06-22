@@ -36,9 +36,9 @@
     
 }
 .footerLink{
-    padding: 128px 30px;
+    padding: 128px 60px;
    display: flex;
-    gap: 60px;
+    gap: 80px;
     align-items:center ;
    
     border-bottom: 2px solid #D092BA;
@@ -50,7 +50,7 @@ padding: 10px;
 }
 .ul{
     display: flex;
-    column-gap: 10px;
+    column-gap: 80px;
 
 }
 .writeNow{
@@ -68,7 +68,7 @@ line-height: 36px;
         cursor: pointer;
         margin-left:20px;
         display: flex;
-        min-width:200px;
+        width:200px;
         
 padding: 12px 21px;
 background-color: $color_title;
@@ -128,7 +128,7 @@ line-height: 30px;
         }
         .writeNowBtn{
            
-           min-width:170px;
+            width:180px;
             
     padding: 10px 15px;
    
@@ -142,7 +142,7 @@ line-height: 30px;
     }   
          
         }
-        @media screen and (max-width:415px){
+        @media screen and (max-width:414px){
  
             .footerLink{
                 padding: 70px 6px;
