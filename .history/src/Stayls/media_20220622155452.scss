@@ -1,0 +1,27 @@
+ @media screen and (min-width:1600px){
+    .Wrap{
+
+        width:  80vw;
+        margin: 0 auto;
+    }
+
+}
+@media screen and (max-width:1024px){
+ 
+    .homeCard {
+  
+  
+        .title {
+          line-height: 80px;
+          font-size: 70px;
+                  
+        }
+        .text{
+            padding: 20px 100px;
+            
+              }
+              .cardImgOverlay{
+                padding: 6vh  10vw 0 11vw;
+              }
+              
+    }

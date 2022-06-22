@@ -1,0 +1,19 @@
+ @media screen and (min-width:1600px){
+    .Wrap{
+
+        width:  80vw;
+        margin: 0 auto;
+    }
+
+}
+@media screen and (max-width:1024px){
+ 
+    .footerLink{
+        padding: 128px 60px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 80px;
+        align-items:center ;
+        border-bottom: 2px solid #D092BA;
+              
+    }

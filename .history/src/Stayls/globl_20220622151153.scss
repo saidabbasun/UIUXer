@@ -1,0 +1,19 @@
+@import './variables';
+@import './font-face.scss';
+@imp
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: $color_title;
+    font-style: normal;
+    font-family: Mulish;
+    letter-spacing: 0.4px;
+    list-style: none;
+}
+body{
+    background-color: #E5E5E5;
+   
+    
+   
+}

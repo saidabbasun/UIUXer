@@ -1,0 +1,22 @@
+
+$width1: 1280px;
+$width2: 1720px;
+ 
+:root {
+    f-size: 20px;
+    f-family: Helvetica, sans-serif;
+}
+ 
+@media (min-width: $width1) and (max-width: $width2) {
+    :root {
+        f-size: 22px;
+        f-family: Helvetica;
+        ;
+    }
+}
+ 
+@media (min-width:1000px){
+    .Wrap{
+        width:  100vw;
+    }
+}

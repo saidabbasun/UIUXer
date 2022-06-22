@@ -1,0 +1,41 @@
+@import '../variables';
+.getStart{
+    padding: 100px 60px;
+  .title{
+    font-family: Fraunces;
+    font-weight: 400;
+font-size: 40px;
+line-height: 56px;
+  }
+  .text{
+    font-size: 20px;
+line-height: 30px;  
+  }
+
+.getStartCard{
+    border-radius: 20px;
+.getStartCard{
+  
+}
+}
+.left{
+    padding: 120px 60px ;
+}
+.imgOverlay{
+    display: flex;
+   padding: 0;
+}
+
+}
+@media screen and (max-width:768px){
+ .getStart{
+  .left{
+    padding: 0 60px;
+  }
+  .imgOverlay{
+    display: block;
+   padding: 0;
+}
+ }
+  
+}

@@ -1,0 +1,66 @@
+@import "./variables";
+
+.homeCard {
+  .title {
+    font-family: Fraunces;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 130px;
+  
+  
+   
+  }
+  .text{
+padding: 20px 250px;
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 38px;
+
+  }
+
+  .logoText {
+   
+    
+    color: $color_btn;
+   
+  }
+  .cardImgOverlay{
+    padding: 16vh  13vw 15vh 11vw;
+  }
+  .homeBtn{
+    padding: 21px 71px;
+    font-size: 18px;
+line-height: 27px;
+border-radius: 10px;
+background-color: $color_btn;
+border: none;
+margin-right: 10px;
+&:hover{
+    background-color: rgb(220, 83, 25);
+}
+  }
+  .homeBtn2{
+    background-color: $color_home_btn;
+  }
+  .cricleText{
+    display: block;
+   text-transform: uppercase;
+    margin: 55px auto;
+    fill: $color_title;
+    font-family: ;
+    font-weight: 900;
+    transform: rotate(27deg);
+  }
+ .wrap{
+display: flex;
+justify-content: center;
+align-items: center;
+
+ }
+ .ArrowBottom{
+  position: absolute;
+ }
+
+}
+

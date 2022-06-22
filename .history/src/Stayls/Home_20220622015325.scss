@@ -1,0 +1,19 @@
+@import "./variables";
+.homeCard {
+  .title {
+    font-family: Fraunces;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 130px;
+    letter-spacing: 0.4px;
+  }
+  .logoText {
+   
+    
+    color: $color_btn;
+   
+  }
+  .cardImgOverlay{
+    padding: 160px 130px 150;
+  }
+}

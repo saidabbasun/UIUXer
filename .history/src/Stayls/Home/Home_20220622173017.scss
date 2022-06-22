@@ -1,0 +1,129 @@
+@import "../variables";
+
+.homeCard {
+background-image: url(../../assets/images/bghome.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+ 
+  .title {
+    font-family: Fraunces;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 130px;
+  
+  
+   
+  }
+  .text{
+padding: 20px 250px;
+
+font-weight: 400;
+font-size: 25px;
+line-height: 38px;
+
+  }
+
+  .logoText {
+   
+    
+    color: $color_btn;
+   
+  }
+  .cardImgOverlay{
+    padding: 16vh  13vw 0 11vw;
+  }
+  .homeBtn{
+    padding: 21px 71px;
+    font-size: 18px;
+line-height: 27px;
+border-radius: 10px;
+background-color: $color_btn;
+border: none;
+margin-right: 10px;
+&:hover{
+    background-color: rgb(220, 83, 25);
+}
+  }
+  .homeBtn2{
+    background-color: $color_home_btn;
+  }
+  
+
+
+}
+.cricleText{
+  display: block;
+ text-transform: uppercase;
+  margin: 55px auto;
+
+  fill: $color_title;
+  
+
+  transform: rotate(27deg);
+  
+}   
+.wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+   }
+  
+.ArrowBottom{
+  position: absolute;
+ }
+ @media screen and (max-width:1024px){
+ 
+  .homeCard {
+
+
+      .title {
+        line-height: 80px;
+        font-size: 70px;
+                
+      }
+      .text{
+          padding: 20px 100px;
+          
+            }
+            .cardImgOverlay{
+              padding: 6vh  10vw 0 11vw;
+            }
+            
+  }
+}
+@media screen and (max-width:600px){
+ 
+  .homeCard {
+
+
+      .title {
+        line-height: 40px;
+        font-size: 40px;
+                
+      }
+      .text{
+        font-size: 20px;
+          padding: 20px 70px;
+          
+            }
+            .cardImgOverlay{
+              padding: 6vh  2vw 0 4vw;
+            }
+            .homeBtn{
+              padding: 15px 40px;
+              font-size: 14px;
+          line-height: 20px;
+          border-radius: 10px;
+          background-color: $color_btn;
+          border: none;
+          margin-right: 10px;
+         
+          }
+          .homeBtn2{
+            background-color: $color_home_btn;
+          }
+            
+  }
+}

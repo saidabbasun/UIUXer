@@ -1,0 +1,15 @@
+
+
+.header{
+    padding: 35px 0;
+}
+.navLink{
+    font-size: 20px;
+    font-weight: 0;
+line-height: 30px;
+color: #222222;
+margin-right: 80px;
+&:hover{
+    color: #181717;
+}
+}

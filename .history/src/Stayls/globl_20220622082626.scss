@@ -1,0 +1,16 @@
+@import './variables';
+@import './font-face.scss';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: $color_title;
+    font-weight: 400;
+    font-family: Mulish;
+}
+body{
+    background-color: #E5E5E5;
+  
+    
+   
+}

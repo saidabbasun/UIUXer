@@ -1,0 +1,27 @@
+
+.footer{
+    text-align: center;
+}
+.footerCricle{
+    transform: rotate(20deg);
+}
+.slide{
+    padding-bottom: 100px;
+    display: flex;
+    column-gap: 100px;
+    overflow-x: scroll;
+    ::webkit-scrollbar{
+        display: none;
+    }
+    img{
+        font-size: 40px;
+    }
+    .sliderText{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .element{
+        display: flex;
+        
+    }
+}

@@ -1,0 +1,46 @@
+@import '../variables';
+.getStart{
+    padding: 100px 60px;
+  .title{
+    font-family: Fraunces;
+    font-weight: 400;
+font-size: 40px;
+line-height: 56px;
+  }
+  .text{
+    font-size: 20px;
+line-height: 30px;  
+  }
+
+.getStartCard{
+    border-radius: 20px;
+background-image: url(../../assets/images/bgFooterTop.png);
+}
+.left{
+    padding: 120px 60px ;
+}
+right
+.imgOverlay{
+    display: flex;
+   padding: 0;
+}
+.getStartBtn{
+  padding: 21px 51px;
+  background-color: $color_btn;
+  border: none;
+  border-radius: 10px;
+}
+}
+
+@media screen and (max-width:768px){
+ .getStart{
+  .left{
+    padding: 0 60px;
+  }
+  .imgOverlay{
+    display: block;
+   padding: 0;
+}
+ }
+  
+}
